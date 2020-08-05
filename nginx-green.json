@@ -6,7 +6,7 @@
     "HAPROXY_DEPLOYMENT_ALT_PORT": "10015",
     "HAPROXY_0_VHOST": "<HAPROXY_HOSTNAME>"
   },
-  "id": "/staging/sarthak.sh/nginx/nginx-green",
+  "id": "/staging/nginx/nginx-green",
   "backoffFactor": 1.15,
   "backoffSeconds": 1,
   "cmd": "echo \"green\" > /usr/share/nginx/html/index.html ; service nginx start  ; sleep 1000 ",
